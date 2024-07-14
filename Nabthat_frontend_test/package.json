@@ -1,0 +1,17 @@
+{
+  "name": "projekt",
+  "version": "1.0.0",
+  "main": "script.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "compile": "sass --watch --no-source-map styles.scss style.css"
+  },
+  "author": "Kamil Chabowski",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "sass": "^1.77.8"
+  }
+}

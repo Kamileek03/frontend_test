@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/6de1166282.js" crossorigin="anonymous"></script>
+    <title>Fronend_test</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="/index.html"><i class="fa-brands fa-html5"></i></a>
+        </div>
+        <div class="zad">
+            <div id="dane">Zadanie <strong>rekrutacyjne</strong></div>
+        </div>
+    </header>
+    <div class="container">
+            <h1>Nagłówek H1</h1>
+        <hr>
+        <div class="bloki">
+            <div class="blok1">
+                <h2>Blok pierwszy</h2>
+                <form>
+                    <label>
+                        <input type="radio" name="option" value="first"> Opcja pierwsza <br>
+                    </label>
+                    <label>
+                        <input type="radio" name="option" value="second"> Opcja Druga <br>
+                    </label>
+                    <label>
+                        <input type="radio" name="option" value="random"> Opcja losowa
+                    </label>
+                </form>
+            </div>
+            <div class="blok2">
+                <h2>Blok Drugi</h2> <br>
+                <button id="zastap" onclick="zastap()">zastąp</button>
+                <button id="doklej" onclick="doklej()">doklej</button>
+            </div>
+            <div class="blok3">
+                <h2>blok z drugą nazwą która sama się przetnie...</h2> 
+                <textarea disabled id="content"></textarea>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="css">
+            <div class="boxcss">
+                <div class="textcss">
+                    css is awesome
+                </div>
+            </div>
+        </div>
+        <div class="nabthat">
+            <h2>nabthat</h2>
+        </div>
+        <div class="pokaz">
+            <button onclick="popup()">Pokaż <i class="fa-solid fa-angle-up"></i></button>
+            <div class="dropdown-content">
+                <h4 onclick="refresh()"><i class="fa-solid fa-angle-up fa-rotate-90"></i> Zresetuj ustawienia</h4>
+                <h4 onclick="dane()"><i class="fa-solid fa-angle-up fa-rotate-90"></i> Pokaż dane osobowe</h4>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
