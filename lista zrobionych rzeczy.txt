@@ -1,0 +1,9 @@
+główne cele których nie udało się zrobić:
+Header przyklejony do topu
+Uniknięcie powielania istejące treści w bloku 3
+Dodatkowe cele które udało się zrobić:
+Brak plików graficznych w końcowym projekcie (brak plików typu jpg, gif, png, svg).
+CSS IS AWESOME w footerze - po najechaniu myszką ramka (bez tekstu) powinna wykonać animowany obrót.
+Logiczne wykorzystanie jednostek rem, em, vh, vw (w efekcie jak najmniejsze użycie jednostki px) - w taki sposób by w efekcie responsywność spełniona została jak najmniejszą ilością kodu.
+Button w footerze ("pokaż") wysuwający ramkę bez użycia JSa.
+Rezultat prac wrzucić do podglądu na jakąś darmową platformę (np. netlify/heroku).
